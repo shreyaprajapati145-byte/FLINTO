@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FLINTO</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:#F9F7F3;
+color:#1F2937;
+}
+
+/* NAVBAR */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#1F2937;
+color:white;
+}
+
+.logo{
+font-size:24px;
+font-weight:600;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero p{
+color:#555;
+max-width:600px;
+margin:auto;
+}
+
+.hero-buttons{
+margin-top:25px;
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.hero-btn{
+background:#D4A373;
+color:white;
+padding:12px 24px;
+border-radius:8px;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+.hero-btn:hover{
+background:#c49263;
+}
+
+/* CATEGORY SECTION */
+
+.categories{
+text-align:center;
+padding:60px 20px;
+}
+
+.categories h2{
+margin-bottom:30px;
+}
+
+.category-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+max-width:900px;
+margin:auto;
+}
+
+.category-card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+text-decoration:none;
+color:#1F2937;
+transition:0.3s;
+}
+
+.category-card:hover{
+transform:translateY(-5px);
+}
+
+.icon{
+font-size:40px;
+margin-bottom:10px;
+}
+
+/* STATS */
+
+.stats{
+background:white;
+padding:60px 20px;
+text-align:center;
+}
+
+.stats-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+max-width:900px;
+margin:auto;
+}
+
+.stat-box{
+padding:30px;
+border-radius:10px;
+background:#F9F7F3;
+}
+
+.stat-box h3{
+font-size:32px;
+color:#D4A373;
+}
+
+/* FOOTER */
+
+footer{
+background:#1F2937;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">FLINTO</div>
+
+<nav>
+<a href="newhosteldes.html">Hostels</a>
+<a href="PG.html">PG</a>
+<a href="rent.html">Rent</a>
+<a href="about.html">About</a>
+<a href="login.html">Login</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Find the Perfect Place to Stay</h1>
+
+<p>
+Search hostels, PGs and rental homes in one platform. 
+FLINTO helps you find comfortable living spaces easily.
+</p>
+
+<div class="hero-buttons">
+
+<a href="newhosteldes.html" class="hero-btn">Explore Hostels</a>
+<a href="PG.html" class="hero-btn">Explore PG</a>
+<a href="rent.html" class="hero-btn">Explore Rent</a>
+<a href="about.html" class="hero-btn">About FLINTO</a>
+
+</div>
+
+</section>
+
+<section class="categories">
+
+<h2>Browse by Category</h2>
+
+<div class="category-grid">
+
+<a href="hostels.html" class="category-card">
+<div class="icon">🏨</div>
+<h3>Hostels</h3>
+<p>Affordable hostels near colleges</p>
+</a>
+
+<a href="pg.html" class="category-card">
+<div class="icon">🏠</div>
+<h3>PG Accommodation</h3>
+<p>Comfortable PG for students & professionals</p>
+</a>
+
+<a href="rent.html" class="category-card">
+<div class="icon">🏡</div>
+<h3>Rental Homes</h3>
+<p>Discover apartments and homes easily</p>
+</a>
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<h2>FLINTO in Numbers</h2>
+
+<div class="stats-grid">
+
+<div class="stat-box">
+<h3>500+</h3>
+<p>Rooms Available</p>
+</div>
+
+<div class="stat-box">
+<h3>120+</h3>
+<p>Hostels Listed</p>
+</div>
+
+<div class="stat-box">
+<h3>80+</h3>
+<p>PG Accommodations</p>
+</div>
+
+<div class="stat-box">
+<h3>10+</h3>
+<p>Cities Covered</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 FLINTO • Find • Live • Move Into</p>
+
+</footer>
+
+</body>
+</html>
